@@ -3,38 +3,171 @@ body {
     background-color: white;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    font-family: Arial Black;
 }
 
-
-.headerSign {
-    color: white;
-
+.halfPage {
+    display: grid;
+    width: 100%;
+    height: 800px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "left right"
 }
 
-.blueBox {
-    border-bottom-right-radius: 1500px;
+.leftPage {
+    grid-area: left;
     background-color: blue;
-    padding-left: 10px;
-    margin-top: -25px;
-    height: 983px;
-    width: 750px;
+    border-bottom-right-radius: 1500px;
+    width: 100%;
+}
+
+.rightPage {
+    grid-area: right;
     text-align: center;
+    padding-top: 50px;
+}
+
+.formz {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: 35px;
+}
+
+.input1 {
+    border: 2px solid gray;
+    padding: 10px 10px;
+    border-radius: 50px;
+    height: 35px;
+    width: 350px;
+    background-image: url('../img/CRM-SignUp/Page-1.png');
+    background-position: 30px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px 0 5px 5px;
+}
+
+.input2 {
+    border: 2px solid gray;
+    padding: 10px 10px;
+    border-radius: 50px;
+    height: 35px;
+    width: 350px;
+    background-image: url('../img/CRM-SignUp/Page-1.png');
+    background-position: 30px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px 0 5px 5px;
+}
+
+.input3 {
+    border: 2px solid gray;
+    padding: 10px 10px;
+    border-radius: 50px;
+    height: 35px;
+    width: 350px;
+    background-image: url('../img/CRM-SignUp/Page-1.png');
+    background-position: 30px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px 0 5px 5px;
 }
 
 .signUpB {
-    float: left;
-    margin-left: 300px;
-    text-align: center;
+    height: 50px;
+    width: 200px;
     background-color: blue;
+    border: 3px solid white;
     color: white;
-    border: 2px solid white;
     border-radius: 50px;
-    height: 45px;
-    width: 225px;
+    font-family: arial black;
+    font-size: 25px;
+    margin-left: 200px;
 }
 
-.signInBox {
+.headerz {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial Black;
+}
 
+.takeMeThere {
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid blue;
+    color: white;
+    font-family: Arial black;
+    font-size: 20px;
+}
+
+.imgGrid {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.overlay1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 15px;
+    left: 27px;
+}
+
+.overlay3 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 15px;
+    left: 147px;
+}
+
+.overlay5 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.overlay6 {
+    position: absolute;
+    top: 15px;
+    left: 267px;
+}
+
+.overlay7 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.overlay8 {
+    position: absolute;
+    top: 15px;
+    left: 387px;
+}
+
+.cityLogo {
+    width: 525px;
 }
 
 
