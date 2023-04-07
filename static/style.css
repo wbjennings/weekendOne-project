@@ -98,3 +98,31 @@
 
 
 /* Khoa Coding Area */
+.main-khoa {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.hero-khoa {
+    width: 90%
+}
+
+.leftside-khoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-form-khoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp-khoa {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.input-khoa {
+    border-radius: 180px;
+}
