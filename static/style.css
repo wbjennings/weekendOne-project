@@ -86,10 +86,103 @@ body {
 /* Alec's Coding Area */
 
 nav{
-    
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: white;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 2fr 7fr 3fr;
+    grid-auto-rows: auto;
+    grid-template-areas:
+        "first second third"
 }
 
+.nav_1{
+    grid-area: first;
+}
 
+.nav_2{
+    grid-area: second;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: black;
+    margin:0px 40px 0px 40px
+}
+
+.nav_3{
+    grid-area: third;
+    display: flex;
+    align-items: center;
+    gap: 60px
+}
+
+.double_tap{
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click{
+    font-weight: 700;
+    border-style: groove;
+    border-radius: 9px;
+    padding: 10px;
+    font-size: 15px;
+    width:110px;
+    height:40px;
+}
+
+.pop{
+    color: blue;
+    border: 2px solid blue;
+}
+
+.pop:hover{
+    color:rgb(117, 117, 117)
+}
+
+.pip:hover{
+    color:rgb(124, 124, 124)
+}
+
+.pip{
+    border: blue;
+    background-color:blue;
+}
+
+.behemoth{
+    height: 900px;
+    width: 100%;
+    background-color: red;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: column;
+    grid-template-areas:
+        "bernie sanders"
+}
+
+.main_image{
+    width: 100%;
+}
+
+.top_left{
+    grid-area:bernie;
+}
+
+.top_right{
+    grid-area:sanders;
+}
 
 
 
