@@ -87,7 +87,6 @@ body {
     border-radius: 50px;
     font-family: arial black;
     font-size: 25px;
-    margin-left: 200px;
 }
 
 .headerz {
@@ -168,6 +167,22 @@ body {
 
 .cityLogo {
     width: 525px;
+    margin-left: -150px;
+}
+
+.centerH {
+    text-align: center;
+}
+
+.someText {
+    text-align: center;
+    font-size: 15px;
+}
+
+.pBox {
+    height: 300px;
+    width: 500px;
+    margin: 50px auto auto auto;
 }
 
 
@@ -446,6 +461,10 @@ nav{
 .p_box{
     width: 100%;
     grid-area: prince;
+    background-color: blue;
+    height: 250px;
+    text-align: center;
+    color: white;
 }
 
 .e_box{
@@ -460,6 +479,8 @@ nav{
 .b_list{
     display: flex;
     font-size: 12px;
+    color: white;
+    margin: 25px 0px 0px 700px;
 }
 
 .last{
@@ -468,6 +489,22 @@ nav{
 
 .chance{
     list-style: none;
+}
+
+.fButton1 {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+}
+
+.fButton2 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    color: blue;
 }
 
 
@@ -680,9 +717,8 @@ main {
     justify-content: center;
     width: 80%;
     border: 1px black solid;
-    /* margin-top: auto; */
     border-radius: 20px;
-    margin: auto;
+    margin: auto auto auto auto;
 }
 
 .hero-img-khoa {
