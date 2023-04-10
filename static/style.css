@@ -576,6 +576,11 @@ main {
     height: 40px;
 }
 
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
 .smallSocial {
     width: 100%;
     height: 40px
@@ -610,60 +615,214 @@ main {
     z-index: 1;
 }
 
-/* .imgGrid {
-    margin-top: 40px;
+.horizon-khoa {
+    width: 60%;
+}
+
+.explore-khoa {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
-    position: relative;
-    top: 0;
-    left: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-.overlay1 {
-    position: relative;
-    top: 0;
-    left: 0;
+.intro-header-khoa {
+    font-size: 30px;
 }
 
-.overlay2 {
+.intro-body-khoa {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.small-image-khoa {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.icons-khoa {
+    width: 60%;
+}
+
+.img-box-khoa {
+    /* width: 100%;
+    height: 50%; */
+    margin-top: 50px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 130px;
+    width: 100px;
+    vertical-align: center;
+    margin-bottom: 40px;
+}
+
+.text-box-khoa {
+    margin-top: 20px;
+}
+
+.img-box-khoa:hover {
+    background-color: rgb(50, 50, 246);
+    color: white;
+}
+
+.img-box-khoa:nth-child(4) {
+    /* vertical-align: center; */
+    display: table-cell;
+    /* padding: 10px; */
+    vertical-align: center;
+}
+
+.hero-landing-khoa {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border: 1px black solid;
+    /* margin-top: auto; */
+    border-radius: 20px;
+    margin: auto;
+}
+
+.hero-img-khoa {
+    height: 400px;
+    
+}
+
+.hero-header-khoa {
+    font-size: 20px;
+}
+
+.box-text1-khoa {
+    font-size: 14px;
+}
+
+.box-text-khoa {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.learn-more-khoa {
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(50, 50, 246);
+    border: white 3px solid;
+    color: white;
+    margin-top: 40px;
+    background-image: url('../img/CRM-SignUp/3994400_arrow_forward_navigation_next_right_icon.png');
+    background-position: 5px 5px;
+			background-repeat: no-repeat;
+            background-size: 20px 20px;
+            background-position: 170px;
+}
+
+.learn-more-khoa:hover {
+    background-color: white;
+    color:rgb(50, 50, 246)
+}
+
+.hero-text-khoa {
+    height: 400px;
+    vertical-align: center;
+    /* border: solid red 1px; */
+    gap: 5px;
+    background-color: rgb(50, 50, 246);
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    border-end-end-radius: 20px;
+    border-start-end-radius: 20px;
+    color: white;
+    /* font-size: 20px; */
+}
+
+.lower-body-text-khoa {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-text-khoa {
+    font-weight: normal;
+}
+
+.lower-header-khoa {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.first-two-khoa {
+    display: flex;
+    gap: 200px;
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.lower-button-khoa {
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: black 3px solid;
+    color: black;
+    margin-top: 40px;
+    background-image: url('../img/CRM-SignUp/3994400_arrow_forward_navigation_next_right_icon.png');
+    background-position: 5px 5px;
+			background-repeat: no-repeat;
+            background-size: 20px 20px;
+            background-position: 120px;
+}
+
+.lower-button-khoa:hover {
+    background-color: rgb(50, 50, 246);
+    color: white;
+}
+
+.four-icons-khoa {
+    text-align: center
+}
+
+.four-icons-khoa p {
+    font-size: 10px;
+}
+
+.last-two-khoa {
+    display: flex;
+    gap: 200px;
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+}
+
+.overlayEllipse-khoa {
+    position: relative;
+    z-index: -2;
+    /* z-index: 0; */
+    width: 100px;
+    /* border: red solid 1px; */
+    background-size: cover;
+    /* padding: 10px; */
+    /* top: 10px; */
+}
+
+.computer-khoa {
     position: absolute;
-    top: 15px;
-    left: 27px;
+    z-index: -1;
+    width: 70px;
+    /* border: red 1px solid; */
+    top: 30px;
+    right: 38%
 }
 
-.overlay3 {
+.img-gather-khoa {
+    /* border: red 1px solid; */
+    align-items: center;
     position: relative;
-    top: 0;
-    left: 0;
+    padding: 10px;
 }
-
-.overlay4 {
-    position: absolute;
-    top: 15px;
-    left: 147px;
-}
-
-.overlay5 {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.overlay6 {
-    position: absolute;
-    top: 15px;
-    left: 267px;
-}
-
-.overlay7 {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.overlay8 {
-    position: absolute;
-    top: 15px;
-    left: 387px;
-} */
